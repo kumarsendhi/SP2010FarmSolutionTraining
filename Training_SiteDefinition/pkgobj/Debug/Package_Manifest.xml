@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="a1b668a1-0890-4550-b824-d2946cb134af" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="Training_SiteDefinition.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="SiteTemplates\Training_SiteDefinition\default.aspx" />
+    <TemplateFile Location="SiteTemplates\Training_SiteDefinition\Xml\onet.xml" />
+    <TemplateFile Location="1033\xml\webtemp_Training_SiteDefinition.xml" />
+    <TemplateFile Location="SiteTemplates\Training_SiteDefinition\myMaster.master" />
+  </TemplateFiles>
+</Solution>

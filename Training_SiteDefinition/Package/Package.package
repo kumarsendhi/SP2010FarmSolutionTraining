@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="a1b668a1-0890-4550-b824-d2946cb134af" solutionId="a1b668a1-0890-4550-b824-d2946cb134af" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="Training_SiteDefinition">
+    <projectItems>
+        <projectItemReference itemId="6b275933-bca6-4505-bc8e-714d6e134b88" />
+    </projectItems>
+</package>

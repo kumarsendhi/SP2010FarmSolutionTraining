@@ -1,0 +1,5 @@
+C:\Training\Training\Training_SiteDefinition\bin\Debug\Training_SiteDefinition.dll
+C:\Training\Training\Training_SiteDefinition\bin\Debug\Training_SiteDefinition.pdb
+C:\Training\Training\Training_SiteDefinition\obj\Debug\Training_SiteDefinition.csprojResolveAssemblyReference.cache
+C:\Training\Training\Training_SiteDefinition\obj\Debug\Training_SiteDefinition.dll
+C:\Training\Training\Training_SiteDefinition\obj\Debug\Training_SiteDefinition.pdb

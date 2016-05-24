@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Title="Training_SiteDefinition" Revision="2" ListDir="" xmlns:ows="Microsoft SharePoint" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <NavBars>
+  </NavBars>
+  <Configurations>
+    <Configuration ID="0" Name="Training_SiteDefinition" MasterUrl="_catalogs/masterpage/myMaster.master">
+      <Lists/>
+      <SiteFeatures>
+      </SiteFeatures>
+      <WebFeatures>
+      </WebFeatures>
+      <Modules>
+        <Module Name="DefaultBlank" />
+        <Module Name="myMaster"/>
+      </Modules>
+    </Configuration>
+  </Configurations>
+  <Modules>
+    <Module Name="DefaultBlank" Url="" Path="">
+      <File Url="default.aspx">
+      </File>
+</Module>
+    <Module Name="myMaster" List="116" Url="_catalogs/masterpage">
+      <File Url="myMaster.master" Path="myMaster.master" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE">
+      </File>
+    </Module>
+  </Modules>
+</Project>
