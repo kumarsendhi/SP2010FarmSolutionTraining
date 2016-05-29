@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ae285a68-ed7e-41c8-b552-3eb72a7c6efc" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="TrainingSearch.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="TrainingSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a2a94ae9a295a36f" Namespace="TrainingSearch.VWP_Training_CAMLQuery" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\TrainingSearch\VWP_Training_CAMLQuery\VWP_Training_CAMLQueryUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="TrainingSearch_Feature_TrainingSearch\Feature.xml" />
+  </FeatureManifests>
+</Solution>

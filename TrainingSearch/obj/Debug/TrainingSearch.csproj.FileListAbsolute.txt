@@ -1,0 +1,5 @@
+C:\Training\Training\TrainingSearch\bin\Debug\TrainingSearch.dll
+C:\Training\Training\TrainingSearch\bin\Debug\TrainingSearch.pdb
+C:\Training\Training\TrainingSearch\obj\Debug\TrainingSearch.csprojResolveAssemblyReference.cache
+C:\Training\Training\TrainingSearch\obj\Debug\TrainingSearch.dll
+C:\Training\Training\TrainingSearch\obj\Debug\TrainingSearch.pdb

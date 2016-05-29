@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="VWP_Training_LINQUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="VWP_Training_LINQ\" Type="ElementManifest" />
+    <ProjectItemFile Source="VWP_Training_LINQ.webpart" Target="VWP_Training_LINQ\" Type="ElementFile" />
+    <ProjectItemFile Source="VWP_Training_LINQUserControl.ascx" Target="CONTROLTEMPLATES\TrainingSearch\VWP_Training_LINQ\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="TrainingSearch.VWP_Training_LINQ" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="TrainingSearch.VWP_Training_CAMLQuery.VWP_Training_CAMLQuery, TrainingSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a2a94ae9a295a36f" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">VWP_Training_CAMLQuery</property>
+        <property name="Description" type="string">My Visual WebPart</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

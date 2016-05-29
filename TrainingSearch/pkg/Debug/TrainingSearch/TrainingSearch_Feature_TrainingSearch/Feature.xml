@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Training Search " ActivateOnDefault="FALSE" Id="84a2a135-5503-4126-9c67-c479af0fb26a" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="VWP_Training_CAMLQuery\Elements.xml" />
+    <ElementFile Location="VWP_Training_CAMLQuery\VWP_Training_CAMLQuery.webpart" />
+  </ElementManifests>
+</Feature>

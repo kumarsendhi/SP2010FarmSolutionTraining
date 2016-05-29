@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="32cab6f4-b4e6-480e-83be-4ae2ee58d0d5" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="TrainingMetadata.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="TrainingMetadata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=613f5717ed9f86e6" Namespace="TrainingMetadata.VWP_TrainingMetadata" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\TrainingMetadata\VWP_TrainingMetadata\VWP_TrainingMetadataUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="TrainingMetadata_Feature_TrainingMetadata\Feature.xml" />
+  </FeatureManifests>
+</Solution>

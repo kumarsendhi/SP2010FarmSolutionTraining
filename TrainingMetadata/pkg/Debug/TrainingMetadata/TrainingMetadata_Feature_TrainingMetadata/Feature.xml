@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Training Metadata" ActivateOnDefault="FALSE" Id="f80dd3ad-09dd-4ede-b091-f6384ec3cec5" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="VWP_TrainingMetadata\Elements.xml" />
+    <ElementFile Location="VWP_TrainingMetadata\VWP_TrainingMetadata.webpart" />
+  </ElementManifests>
+</Feature>

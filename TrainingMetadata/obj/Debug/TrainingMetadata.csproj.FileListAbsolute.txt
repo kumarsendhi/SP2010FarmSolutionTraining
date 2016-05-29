@@ -1,0 +1,5 @@
+C:\Training\Training\TrainingMetadata\obj\Debug\TrainingMetadata.csprojResolveAssemblyReference.cache
+C:\Training\Training\TrainingMetadata\bin\Debug\TrainingMetadata.dll
+C:\Training\Training\TrainingMetadata\bin\Debug\TrainingMetadata.pdb
+C:\Training\Training\TrainingMetadata\obj\Debug\TrainingMetadata.dll
+C:\Training\Training\TrainingMetadata\obj\Debug\TrainingMetadata.pdb
