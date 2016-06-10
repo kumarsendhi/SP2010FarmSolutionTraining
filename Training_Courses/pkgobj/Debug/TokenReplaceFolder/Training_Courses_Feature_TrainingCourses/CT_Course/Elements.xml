@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field ID="{825F992D-E168-447D-95C3-1ED29E5F56AE}" Type="Note" Name="CourseDesc" DisplayName="Course Description" Required="TRUE" Group="Training Site Columns"></Field>
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100d449f55cf50744f8a3d466f71ac40a41"
+               Name="Course"
+               Group="Training Content Types"
+               Description="Defines a Course"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{825F992D-E168-447D-95C3-1ED29E5F56AE}" Name="CourseDesc" DisplayName="Course Description" Required="TRUE"/>
+    </FieldRefs>
+  </ContentType>
+</Elements>

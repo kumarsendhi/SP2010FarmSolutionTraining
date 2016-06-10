@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Courses"
+                OnQuickLaunch="TRUE"
+                TemplateType="10000"
+                FeatureId="d402dc7b-e66b-46a9-a240-e3cb6ea38c8d"
+                Url="Lists/Courses"
+                Description="All available Courses">
+  </ListInstance>
+</Elements>

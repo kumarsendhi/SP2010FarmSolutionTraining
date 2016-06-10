@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="59fbcd05-30cc-4343-b3d1-d0a8822e04e1" solutionId="59fbcd05-30cc-4343-b3d1-d0a8822e04e1" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="Training_Courses">
+    <features>
+        <featureReference itemId="d402dc7b-e66b-46a9-a240-e3cb6ea38c8d" />
+    </features>
+</package>

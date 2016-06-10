@@ -1,0 +1,5 @@
+C:\Training\Training\Training_Courses\bin\Debug\Training_Courses.dll
+C:\Training\Training\Training_Courses\bin\Debug\Training_Courses.pdb
+C:\Training\Training\Training_Courses\obj\Debug\Training_Courses.csprojResolveAssemblyReference.cache
+C:\Training\Training\Training_Courses\obj\Debug\Training_Courses.dll
+C:\Training\Training\Training_Courses\obj\Debug\Training_Courses.pdb

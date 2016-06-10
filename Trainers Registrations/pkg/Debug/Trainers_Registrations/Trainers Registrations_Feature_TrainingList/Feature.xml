@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Trainers Lists" ActivateOnDefault="FALSE" Id="414da209-03ca-45ba-bb2c-db3e7171ee58" ReceiverAssembly="Trainers Registrations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=432a176a1940c6d3" ReceiverClass="Trainers_Registrations.Features.Feature_TrainingList.Feature_TrainingListEventReceiver" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="LI_Trainers\Elements.xml" />
+    <ElementManifest Location="LI_Registrations\Elements.xml" />
+  </ElementManifests>
+</Feature>

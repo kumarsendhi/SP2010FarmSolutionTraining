@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="0ab5bb37-d7d3-4c4b-b0a5-f059d48b78aa" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="Trainers Registrations.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Trainers Registrations_Feature_TrainingList\Feature.xml" />
+  </FeatureManifests>
+</Solution>

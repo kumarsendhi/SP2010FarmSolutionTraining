@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Training_Courses" ActivateOnDefault="FALSE" Description="Courses Content type to the web" Id="d402dc7b-e66b-46a9-a240-e3cb6ea38c8d" ReceiverAssembly="Training_Courses, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4582ddd07a8dc196" ReceiverClass="Training_Courses.Features.Feature_TrainingCourses.Feature_TrainingCoursesEventReceiver" Scope="Web">
+  <Properties>
+    <Property Key="GloballyAvailable" Value="true" />
+  </Properties>
+  <ElementManifests>
+    <ElementManifest Location="CT_Course\Elements.xml" />
+    <ElementManifest Location="LD_Courses\Elements.xml" />
+    <ElementFile Location="LD_Courses\Schema.xml" />
+    <ElementManifest Location="LI_Courses\Elements.xml" />
+  </ElementManifests>
+</Feature>
