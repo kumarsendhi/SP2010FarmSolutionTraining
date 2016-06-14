@@ -12,8 +12,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainers Registrations", "Trainers Registrations\Trainers Registrations.csproj", "{7BED7E8D-D35C-454D-B681-07ACB6BE2255}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training_Classes", "Training_Classes\Training_Classes.csproj", "{526B44B8-E487-49AA-BD0B-EAE8A5D46271}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C70431B-7001-44CA-A9A7-BD3F858C2AFB} = {4C70431B-7001-44CA-A9A7-BD3F858C2AFB}
+		{7BED7E8D-D35C-454D-B681-07ACB6BE2255} = {7BED7E8D-D35C-454D-B681-07ACB6BE2255}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training_Courses", "Training_Courses\Training_Courses.csproj", "{4C70431B-7001-44CA-A9A7-BD3F858C2AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training_Permissions", "Training_Permissions\Training_Permissions.csproj", "{EF63D41B-D7C9-4FE2-8D18-2512A0DF4FA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,12 @@ Global
 		{4C70431B-7001-44CA-A9A7-BD3F858C2AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C70431B-7001-44CA-A9A7-BD3F858C2AFB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4C70431B-7001-44CA-A9A7-BD3F858C2AFB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EF63D41B-D7C9-4FE2-8D18-2512A0DF4FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF63D41B-D7C9-4FE2-8D18-2512A0DF4FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF63D41B-D7C9-4FE2-8D18-2512A0DF4FA8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EF63D41B-D7C9-4FE2-8D18-2512A0DF4FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF63D41B-D7C9-4FE2-8D18-2512A0DF4FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF63D41B-D7C9-4FE2-8D18-2512A0DF4FA8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ce294f38-928c-4064-8e76-7829f44e1cc7" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="Training_Permissions.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Training_Permissions_Feature_TrainingPermissions\Feature.xml" />
+  </FeatureManifests>
+</Solution>

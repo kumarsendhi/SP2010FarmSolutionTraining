@@ -1,5 +1,4 @@
 C:\Training\Training\Trainers Registrations\bin\Debug\Trainers Registrations.dll
 C:\Training\Training\Trainers Registrations\bin\Debug\Trainers Registrations.pdb
-C:\Training\Training\Trainers Registrations\obj\Debug\Trainers Registrations.csprojResolveAssemblyReference.cache
 C:\Training\Training\Trainers Registrations\obj\Debug\Trainers Registrations.dll
 C:\Training\Training\Trainers Registrations\obj\Debug\Trainers Registrations.pdb

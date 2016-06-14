@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="LD_Classes" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Training_Classes-LD_Classes" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x0100e0000ef61ff5409e93aadb56321d9a38" Name="Class" Group="Training Content Types" Description="Defines a Class" Inherits="TRUE" Version="0">
+        <FieldRefs>
+          <FieldRef ID="{3330179F-8D30-4A43-B83C-ACFDE286490F}" Name="CourseTitle" DisplayName="Course Title" Required="FALSE"/>
+          
+          <FieldRef ID="{475E2240-47A2-455F-A377-CBF7FDDAF1A8}" Name="Trainer" DisplayName="Trainer" Required="FALSE"/>
+          
+          <FieldRef ID="{CF57C1B8-7978-4704-B388-3F855B0E78C5}" Name="Venue" DisplayName="Venue" Required="FALSE"/>
+          
+          <FieldRef Name="TotalSeats" ID="{D6A2CF3B-B305-4C4F-AFA3-C40D0F8AC573}" DisplayName="Total Seats" Required="FALSE" />
+          <FieldRef Name="Registrations" ID="{862A5687-C8AD-4DC9-A310-2B8DF5465146}" DisplayName="Registrations" Required="FALSE"/>
+          
+          <FieldRef ID="{D45FB4F1-FF7F-497B-8ABD-4D3DAF31CC0A}" Name="OpenSeats" DisplayName="Open Seats" Required="FALSE"/>
+         
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{c8a7b3c4-ed27-440b-b4b5-685dadc1de0a}" Type="Lookup" List="Lists/Courses" ShowField="Title" Name="CourseTitle" DisplayName="Course Title" Required="FALSE" Group="Training Site Columns" />
+      <Field ID="{c0fea941-92e7-477e-8d4a-9a9840b8e598}" Type="Lookup" List="Lists/Trainers" ShowField="FullName" Name="Trainer" DisplayName="Trainer" Required="FALSE" Group="Training Site Columns" />
+      <Field ID="{b1d19022-a494-416c-8fcd-ed968324065e}" Type="Choice" Name="Venue" DisplayName="Venue" Required="FALSE" Group="Training Site Columns">
+    <CHOICES>
+      <CHOICE>Bangalore</CHOICE>
+      <CHOICE>Hyderabad</CHOICE>
+      <CHOICE>Chennai</CHOICE>
+      <CHOICE>Pune</CHOICE>
+    </CHOICES>
+  </Field>
+      <Field ID="{79e76145-f015-4de9-b330-eaaf1704b28a}" Type="Number" Decimals="0" Min="0" Name="Registrations" DisplayName="Registrations" Required="FALSE" Group="Training Site Columns">
+      </Field>
+      <Field ID="{1f62cdab-1efd-466e-b3b0-53d98123b03a}" Type="Number" Decimals="0" Min="0" Name="TotalSeats" DisplayName="Total Seats" Required="FALSE" Group="Training Site Columns">
+      </Field>
+      <Field ID="{fdee7c02-124f-4a25-a57d-bfd71024b76f}" Type="Calculated" ResultType="Number" ReadOnly="TRUE" Name="OpenSeats" DisplayName="Open Seats" Required="FALSE" Group="Training Site Columns">
+    <Formula>=TotalSeats-Registrations</Formula>
+    <FieldRefs>
+      <FieldRef Name="TotalSeats" ID="{1F62CDAB-1EFD-466E-B3B0-53D98123B03A}" />
+      <FieldRef Name="Registrations" ID="{79E76145-F015-4DE9-B330-EAAF1704B28A}"></FieldRef>
+    </FieldRefs>
+  </Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu">
+          </FieldRef>
+          <FieldRef Name="CourseTitle"></FieldRef>
+          <FieldRef Name="Trainer"></FieldRef>
+          <FieldRef Name="Venue"></FieldRef>
+          <FieldRef Name="Registrations"></FieldRef>
+          <FieldRef Name="TotalSeats"></FieldRef>
+          <FieldRef Name="OpenSeats"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE">
+            </FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/images/generic.png" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="Attachments">
+          </FieldRef>
+          <FieldRef Name="LinkTitle">
+          </FieldRef>
+          <FieldRef Name="CourseTitle"></FieldRef>
+          <FieldRef Name="Trainer"></FieldRef>
+          <FieldRef Name="Venue"></FieldRef>
+          <FieldRef Name="Registrations"></FieldRef>
+          <FieldRef Name="TotalSeats"></FieldRef>
+          <FieldRef Name="OpenSeats"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID">
+            </FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

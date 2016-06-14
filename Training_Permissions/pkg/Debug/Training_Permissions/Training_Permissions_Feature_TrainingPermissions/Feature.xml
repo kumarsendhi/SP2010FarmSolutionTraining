@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Training Permissions" ActivateOnDefault="FALSE" Description="Activating this features creates the appropriate SharePoint Groups, assigns permissions to them" Id="409a79fc-265a-4a1e-a115-ca12085ee0f6" ReceiverAssembly="Training_Permissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=53dc3bb1415e0e7d" ReceiverClass="Training_Permissions.Features.Feature_TrainingPermissions.Feature_TrainingPermissionsEventReceiver" Scope="Site"></Feature>

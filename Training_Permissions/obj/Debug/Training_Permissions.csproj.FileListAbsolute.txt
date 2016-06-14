@@ -1,0 +1,4 @@
+C:\Training\Training\Training_Permissions\bin\Debug\Training_Permissions.dll
+C:\Training\Training\Training_Permissions\bin\Debug\Training_Permissions.pdb
+C:\Training\Training\Training_Permissions\obj\Debug\Training_Permissions.dll
+C:\Training\Training\Training_Permissions\obj\Debug\Training_Permissions.pdb

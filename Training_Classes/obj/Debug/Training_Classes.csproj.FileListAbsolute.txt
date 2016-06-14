@@ -1,0 +1,4 @@
+C:\Training\Training\Training_Classes\bin\Debug\Training_Classes.dll
+C:\Training\Training\Training_Classes\bin\Debug\Training_Classes.pdb
+C:\Training\Training\Training_Classes\obj\Debug\Training_Classes.dll
+C:\Training\Training\Training_Classes\obj\Debug\Training_Classes.pdb
