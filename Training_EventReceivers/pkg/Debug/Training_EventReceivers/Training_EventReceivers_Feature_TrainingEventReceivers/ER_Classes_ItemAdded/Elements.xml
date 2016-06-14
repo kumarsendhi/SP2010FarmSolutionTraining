@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="10001">
+      <Receiver>
+        <Name>ER_Classes_ItemAddedItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>Training_EventReceivers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ed12881f0475c963</Assembly>
+        <Class>Training_EventReceivers.ER_Classes_ItemAdded.ER_Classes_ItemAdded</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+
+  </Receivers>
+</Elements>

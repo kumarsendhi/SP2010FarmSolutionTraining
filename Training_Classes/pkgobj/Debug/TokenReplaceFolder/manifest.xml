@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="1851630e-336a-4312-9c83-ad72f066f478" SharePointProductVersion="14.0">
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="88769c03-6d08-4363-abbc-47fff6054a02" SharePointProductVersion="14.0">
   <Assemblies>
     <Assembly Location="Training_Classes.dll" DeploymentTarget="GlobalAssemblyCache" />
   </Assemblies>
   <FeatureManifests>
-    <FeatureManifest Location="Training_Classes_Feature_TrainingClasses\Feature.xml" />
+    <FeatureManifest Location="Training_Classes_Feature_TrainingClass\Feature.xml" />
   </FeatureManifests>
 </Solution>

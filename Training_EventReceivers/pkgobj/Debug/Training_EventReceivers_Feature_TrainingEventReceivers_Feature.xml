@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" ActivateOnDefault="FALSE" Id="499f9bc5-bbff-4fb4-85c5-761f89171e7f" Scope="Web" Title="Training Event Receivers">
+  <ElementManifests>
+    <ElementManifest Location="ER_Classes_ItemAdded\Elements.xml" />
+  </ElementManifests>
+</Feature>

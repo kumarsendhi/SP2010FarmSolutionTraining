@@ -1,0 +1,5 @@
+C:\Training\Training\Training_EventReceivers\bin\Debug\Training_EventReceivers.dll
+C:\Training\Training\Training_EventReceivers\bin\Debug\Training_EventReceivers.pdb
+C:\Training\Training\Training_EventReceivers\obj\Debug\Training_EventReceivers.csprojResolveAssemblyReference.cache
+C:\Training\Training\Training_EventReceivers\obj\Debug\Training_EventReceivers.dll
+C:\Training\Training\Training_EventReceivers\obj\Debug\Training_EventReceivers.pdb

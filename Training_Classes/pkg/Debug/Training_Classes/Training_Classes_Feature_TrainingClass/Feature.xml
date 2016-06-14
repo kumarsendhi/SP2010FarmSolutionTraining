@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" ActivateOnDefault="FALSE" Id="bc1bbfe5-db6b-490f-b273-bb1b9b11620d" ReceiverAssembly="Training_Classes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b4fb4360b0d911e2" ReceiverClass="Training_Classes.Features.Feature_TrainingClass.Feature_TrainingClassEventReceiver" Scope="Web" Title="Training Classes">
+  <ElementManifests>
+    <ElementManifest Location="CT_Class\Elements.xml" />
+    <ElementManifest Location="LI_Classes\Elements.xml" />
+    <ElementManifest Location="LD_Classes\Elements.xml" />
+    <ElementFile Location="LD_Classes\Schema.xml" />
+  </ElementManifests>
+</Feature>

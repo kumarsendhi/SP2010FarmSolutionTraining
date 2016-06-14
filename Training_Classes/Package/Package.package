@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" Id="1851630e-336a-4312-9c83-ad72f066f478" solutionId="1851630e-336a-4312-9c83-ad72f066f478" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="Training_Classes">
-    <features>
-        <featureReference itemId="c5f79f23-f2e7-4bd2-abb4-5b267860e2e1" />
-    </features>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="88769c03-6d08-4363-abbc-47fff6054a02" solutionId="88769c03-6d08-4363-abbc-47fff6054a02" resetWebServer="false" name="Training_Classes" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="82a05984-e0a0-4ee9-9418-b8579368b941" />
+  </features>
 </package>

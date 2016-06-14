@@ -1,9 +1,10 @@
-﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{881e9726-919a-44e2-86a1-db6becf525ee}</ProjectGuid>
+    <ProjectGuid>{881E9726-919A-44E2-86A1-DB6BECF525EE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Training_EventReceivers</RootNamespace>
@@ -11,6 +12,8 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ActiveDeploymentConfiguration>No Activation</ActiveDeploymentConfiguration>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,6 +34,12 @@
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,15 +51,30 @@
     <Reference Include="Microsoft.SharePoint.Security" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ER_Classes_ItemAdded\ER_Classes_ItemAdded.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ER_Classes_ItemAdded\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4b96b510-961c-4ace-85ad-01372910f132}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature_TrainingEventReceivers\Feature_TrainingEventReceivers.feature">
+      <FeatureId>{146a6736-e29e-4528-a797-a28896e35604}</FeatureId>
+    </None>
+    <None Include="key.snk" />
     <None Include="Package\Package.package">
-        <PackageId>{68d95f05-3f13-47ee-be4b-0d5f1f5ea4f5}</PackageId>
+      <PackageId>{68d95f05-3f13-47ee-be4b-0d5f1f5ea4f5}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
-        <DependentUpon>Package.package</DependentUpon>
+      <DependentUpon>Package.package</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ER_Classes_ItemAdded\Elements.xml" />
+    <Content Include="Features\Feature_TrainingEventReceivers\Feature_TrainingEventReceivers.Template.xml">
+      <DependentUpon>Feature_TrainingEventReceivers.feature</DependentUpon>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
