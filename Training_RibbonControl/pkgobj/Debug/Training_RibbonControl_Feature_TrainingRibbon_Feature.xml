@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" ActivateOnDefault="FALSE" Id="a32b57f0-c878-4c59-84d6-e66ea62d1356" Scope="Web" Title="Training RibbonControl">
+  <ElementManifests>
+    <ElementManifest Location="RC_Classes_Register\Elements.xml" />
+  </ElementManifests>
+</Feature>

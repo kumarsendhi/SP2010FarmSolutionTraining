@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training_EventReceivers", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training_Classes", "Training_Classes\Training_Classes.csproj", "{0536100C-17EF-4112-BCAE-2B8D2A6A1940}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training_RibbonControl", "Training_RibbonControl\Training_RibbonControl.csproj", "{6B2B4187-F876-4542-B787-ECC0C7544BD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,12 @@ Global
 		{0536100C-17EF-4112-BCAE-2B8D2A6A1940}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0536100C-17EF-4112-BCAE-2B8D2A6A1940}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0536100C-17EF-4112-BCAE-2B8D2A6A1940}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6B2B4187-F876-4542-B787-ECC0C7544BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2B4187-F876-4542-B787-ECC0C7544BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B2B4187-F876-4542-B787-ECC0C7544BD4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6B2B4187-F876-4542-B787-ECC0C7544BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2B4187-F876-4542-B787-ECC0C7544BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B2B4187-F876-4542-B787-ECC0C7544BD4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

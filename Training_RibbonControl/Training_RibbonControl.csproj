@@ -4,11 +4,11 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{881E9726-919A-44E2-86A1-DB6BECF525EE}</ProjectGuid>
+    <ProjectGuid>{6B2B4187-F876-4542-B787-ECC0C7544BD4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Training_EventReceivers</RootNamespace>
-    <AssemblyName>Training_EventReceivers</AssemblyName>
+    <RootNamespace>Training_RibbonControl</RootNamespace>
+    <AssemblyName>Training_RibbonControl</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -45,52 +45,35 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
     <Reference Include="Microsoft.SharePoint.Security" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ER_Classes_ItemAdded\ER_Classes_ItemAdded.cs" />
-    <Compile Include="ER_Registrations_ItemAdded\ER_Registrations_ItemAdded.cs" />
-    <Compile Include="ER_Registrations_ItemAdding\ER_Registrations_ItemAdding.cs" />
-    <Compile Include="ER_Registrations_ItemDeleted\ER_Registrations_ItemDeleted.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ER_Classes_ItemAdded\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{4b96b510-961c-4ace-85ad-01372910f132}</SharePointProjectItemId>
-    </None>
-    <None Include="ER_Registrations_ItemAdded\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{5467ccab-667c-41d0-8c84-bddda2f68834}</SharePointProjectItemId>
-    </None>
-    <None Include="ER_Registrations_ItemAdding\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{5b97c854-6ab3-4264-8fef-274cf6ff9b44}</SharePointProjectItemId>
-    </None>
-    <None Include="ER_Registrations_ItemDeleted\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{a475d71e-d969-40ae-96e8-208b98012fa5}</SharePointProjectItemId>
-    </None>
-    <None Include="Features\Feature_TrainingEventReceivers\Feature_TrainingEventReceivers.feature">
-      <FeatureId>{146a6736-e29e-4528-a797-a28896e35604}</FeatureId>
+    <None Include="Features\Feature_TrainingRibbon\Feature_TrainingRibbon.feature">
+      <FeatureId>{36d2f403-ad34-4e6a-88f7-472fea2a2481}</FeatureId>
     </None>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
-      <PackageId>{68d95f05-3f13-47ee-be4b-0d5f1f5ea4f5}</PackageId>
+      <PackageId>{001821f3-8d41-4dbf-82e0-58e9b7490ac1}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="RC_Classes_Register\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c347c6ee-26fb-4333-8c38-cd02d6b6e0b7}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="ER_Classes_ItemAdded\Elements.xml" />
-    <Content Include="ER_Registrations_ItemAdded\Elements.xml" />
-    <Content Include="ER_Registrations_ItemAdding\Elements.xml" />
-    <Content Include="ER_Registrations_ItemDeleted\Elements.xml" />
-    <Content Include="Features\Feature_TrainingEventReceivers\Feature_TrainingEventReceivers.Template.xml">
-      <DependentUpon>Feature_TrainingEventReceivers.feature</DependentUpon>
+    <Content Include="Features\Feature_TrainingRibbon\Feature_TrainingRibbon.Template.xml">
+      <DependentUpon>Feature_TrainingRibbon.feature</DependentUpon>
     </Content>
+    <Content Include="RC_Classes_Register\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />

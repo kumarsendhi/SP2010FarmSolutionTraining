@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="001821f3-8d41-4dbf-82e0-58e9b7490ac1" solutionId="001821f3-8d41-4dbf-82e0-58e9b7490ac1" resetWebServer="false" name="Training_RibbonControl" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="36d2f403-ad34-4e6a-88f7-472fea2a2481" />
+  </features>
+</package>
