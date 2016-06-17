@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="VWP_MyRegistrations" List="113" Url="_catalogs/wp">
+    <File Path="VWP_MyRegistrations\VWP_MyRegistrations.webpart" Url="VWP_MyRegistrations.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

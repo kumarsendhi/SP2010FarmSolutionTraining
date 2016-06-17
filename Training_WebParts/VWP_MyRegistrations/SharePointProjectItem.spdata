@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="VWP_MyRegistrationsUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="VWP_MyRegistrations\" Type="ElementManifest" />
+    <ProjectItemFile Source="VWP_MyRegistrations.webpart" Target="VWP_MyRegistrations\" Type="ElementFile" />
+    <ProjectItemFile Source="VWP_MyRegistrationsUserControl.ascx" Target="CONTROLTEMPLATES\Training_WebParts\VWP_MyRegistrations\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="Training_WebParts.VWP_MyRegistrations" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

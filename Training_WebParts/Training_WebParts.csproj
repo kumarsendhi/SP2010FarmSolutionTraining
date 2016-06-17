@@ -4,11 +4,11 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6B2B4187-F876-4542-B787-ECC0C7544BD4}</ProjectGuid>
+    <ProjectGuid>{07AFC10A-DDEE-4DE3-89FD-FCA716643F3A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Training_RibbonControl</RootNamespace>
-    <AssemblyName>Training_RibbonControl</AssemblyName>
+    <RootNamespace>Training_WebParts</RootNamespace>
+    <AssemblyName>Training_WebParts</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -41,10 +41,14 @@
     <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.Server, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Server.UserProfiles, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
@@ -52,29 +56,39 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VWP_MyRegistrations\VWP_MyRegistrations.cs" />
+    <Compile Include="VWP_MyRegistrations\VWP_MyRegistrationsUserControl.ascx.cs">
+      <DependentUpon>VWP_MyRegistrationsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VWP_MyRegistrations\VWP_MyRegistrationsUserControl.ascx.designer.cs">
+      <DependentUpon>VWP_MyRegistrationsUserControl.ascx.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Features\Feature_TrainingRibbon\Feature_TrainingRibbon.feature">
-      <FeatureId>{36d2f403-ad34-4e6a-88f7-472fea2a2481}</FeatureId>
+    <None Include="Features\Feature_Training_WebParts\Feature_Training_WebParts.feature">
+      <FeatureId>{cb48fe5b-f32e-4923-bca7-0ff7d96ebbb2}</FeatureId>
     </None>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
-      <PackageId>{001821f3-8d41-4dbf-82e0-58e9b7490ac1}</PackageId>
+      <PackageId>{19660f74-0cd4-4501-88b2-ce7cb7928140}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="RC_Classes_Register\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{c347c6ee-26fb-4333-8c38-cd02d6b6e0b7}</SharePointProjectItemId>
+    <None Include="VWP_MyRegistrations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fa8022d4-99ba-42f1-81ba-9d533cb0b195}</SharePointProjectItemId>
     </None>
+    <None Include="VWP_MyRegistrations\VWP_MyRegistrations.webpart" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Features\Feature_TrainingRibbon\Feature_TrainingRibbon.Template.xml">
-      <DependentUpon>Feature_TrainingRibbon.feature</DependentUpon>
+    <Content Include="Features\Feature_Training_WebParts\Feature_Training_WebParts.Template.xml">
+      <DependentUpon>Feature_Training_WebParts.feature</DependentUpon>
     </Content>
-    <Content Include="RC_Classes_Register\Elements.xml">
-      <SubType>Designer</SubType>
+    <Content Include="VWP_MyRegistrations\Elements.xml" />
+    <Content Include="VWP_MyRegistrations\VWP_MyRegistrationsUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Training_WebParts" ActivateOnDefault="FALSE" Id="3d257be0-4ac5-46ed-b4c2-b4ba4d556ff6" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="VWP_MyRegistrations\Elements.xml" />
+    <ElementFile Location="VWP_MyRegistrations\VWP_MyRegistrations.webpart" />
+  </ElementManifests>
+</Feature>

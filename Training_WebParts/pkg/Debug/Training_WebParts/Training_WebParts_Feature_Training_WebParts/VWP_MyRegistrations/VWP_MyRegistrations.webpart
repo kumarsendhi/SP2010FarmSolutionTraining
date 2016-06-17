@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Training_WebParts.VWP_MyRegistrations.VWP_MyRegistrations, Training_WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=05e3eafc572a2b82" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">VWP_MyRegistrations</property>
+        <property name="Description" type="string">My Visual WebPart</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

@@ -1,0 +1,5 @@
+C:\Training\Training\Training_WebParts\obj\Debug\Training_WebParts.csprojResolveAssemblyReference.cache
+C:\Training\Training\Training_WebParts\bin\Debug\Training_WebParts.dll
+C:\Training\Training\Training_WebParts\bin\Debug\Training_WebParts.pdb
+C:\Training\Training\Training_WebParts\obj\Debug\Training_WebParts.dll
+C:\Training\Training\Training_WebParts\obj\Debug\Training_WebParts.pdb

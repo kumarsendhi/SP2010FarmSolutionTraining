@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="19660f74-0cd4-4501-88b2-ce7cb7928140" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="Training_WebParts.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Training_WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=05e3eafc572a2b82" Namespace="Training_WebParts.VWP_MyRegistrations" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\Training_WebParts\VWP_MyRegistrations\VWP_MyRegistrationsUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="Training_WebParts_Feature_Training_WebParts\Feature.xml" />
+  </FeatureManifests>
+</Solution>

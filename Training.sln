@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training_Classes", "Trainin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training_RibbonControl", "Training_RibbonControl\Training_RibbonControl.csproj", "{6B2B4187-F876-4542-B787-ECC0C7544BD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training_WebParts", "Training_WebParts\Training_WebParts.csproj", "{07AFC10A-DDEE-4DE3-89FD-FCA716643F3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,12 @@ Global
 		{6B2B4187-F876-4542-B787-ECC0C7544BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B2B4187-F876-4542-B787-ECC0C7544BD4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6B2B4187-F876-4542-B787-ECC0C7544BD4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{07AFC10A-DDEE-4DE3-89FD-FCA716643F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AFC10A-DDEE-4DE3-89FD-FCA716643F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AFC10A-DDEE-4DE3-89FD-FCA716643F3A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{07AFC10A-DDEE-4DE3-89FD-FCA716643F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AFC10A-DDEE-4DE3-89FD-FCA716643F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07AFC10A-DDEE-4DE3-89FD-FCA716643F3A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
